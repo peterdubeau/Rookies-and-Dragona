@@ -1,0 +1,57 @@
+[
+  {
+    "roleName": "barbarian",
+    "description": "You wouldn’t like them when they’re angry. They are strong warriors who typically fight without armor and use powerful weapons. They can enter a berserk rage in which they become even stronger. They're typically not very smart, but that isn’t written in stone.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Hulk_%28circa_2019%29.png/250px-Hulk_%28circa_2019%29.png"
+  },
+  {
+    "roleName": "cleric",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "druid",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "fighter",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "monk",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "paladin",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "name": "ranger",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "rogue",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "sorcerer",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "warlock",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  },
+  {
+    "roleName": "wizard",
+    "description": "Info will go here",
+    "imageUrl": "Image URL will go here"
+  }
+]

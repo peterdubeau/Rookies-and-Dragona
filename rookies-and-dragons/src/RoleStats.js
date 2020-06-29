@@ -8,7 +8,7 @@ class RoleStats extends React.Component {
     try {
       const res = await axios(`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}`)
       this.setState(res.data)
-
+      // console.log(res.data)
     } catch (error) {
       console.log(error)
     }
@@ -20,7 +20,7 @@ class RoleStats extends React.Component {
     }
 
     return (
-      <div>
+      <div className="stats">
         <p>Hit Die: d{this.state.hit_die}</p>
         <h3 key={this.state.proficiencies.name}>Weapon & armor proficiencies:</h3>{this.state.proficiencies.map(wepProf => 
           <p key ={wepProf.name}> {wepProf.name}</p>
