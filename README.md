@@ -14,15 +14,15 @@ Post MVP the page will display the base stats along with the class and racial fe
 ### Wireframes
 
 
-![Home](https://drive.google.com/file/d/1DkVOb-4zL9pin0A_sRljizEGWkaJsaFI/view?usp=sharing)
+[Home](https://drive.google.com/file/d/1DkVOb-4zL9pin0A_sRljizEGWkaJsaFI/view?usp=sharing)
 
 - Desktop Landing
 
-![Class/Race List](https://drive.google.com/file/d/17R43niQwydDN2BPbEkk3fu_4Zk0IW0iM/view?usp=sharing)
+[Class/Race List](https://drive.google.com/file/d/17R43niQwydDN2BPbEkk3fu_4Zk0IW0iM/view?usp=sharing)
 
 - Desktop Body
 
-![Class/Race Info](https://drive.google.com/file/d/1TDffkgfFxwnqw8wIfToRkGtOjLBBn_5b/view?usp=sharing)
+[Class/Race Info](https://drive.google.com/file/d/1TDffkgfFxwnqw8wIfToRkGtOjLBBn_5b/view?usp=sharing)
 
 - Desktop Resource Index
 
