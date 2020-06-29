@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
 import RoleList from './RoleList'
 import RoleInfo from './RoleInfo'
+import RoleStats from './RoleStats'
+import RoleEquipment from './RoleEquipment'
 
 import axios from 'axios'
 
@@ -19,12 +21,11 @@ class App extends Component {
     try {
       const res = await axios('https://www.dnd5eapi.co/api/classes')
       const role = res.data.results
-      console.log(res)
+      // console.log(res)
   
       
       this.setState({
         roleList: role
-        // urlList: url
       })
 
     } catch (error) {
@@ -44,8 +45,9 @@ class App extends Component {
           <RoleList roles={this.state.roleList}/>
         </Route>
         <Route path="/classes/:index">
-          <RoleInfo url={this.state.roleList} />
-          <RoleInfo url={this.state.roleList}/>
+          {/* <RoleInfo url={this.state.roleList} /> */}
+          {/* <RoleStats stats={this.state.roleList} /> */}
+          <RoleEquipment role={this.state.roleList}/>
         </Route>
         
       </main>
