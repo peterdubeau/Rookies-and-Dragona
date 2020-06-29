@@ -5,36 +5,27 @@ Rookies & Dragons
 
 ### Description
 
-**Rookies & Dragons** is a website to help new Dungeons and Dragons players choose a class and race for their first character. The user will first choose to explore classes or races. From there the page will display well know pop culture references that correspond to each class or race. After choosing making their choices, the page will then display the base stats for a character along with the class and racial features of a level 1 character. 
+**Rookies & Dragons** is a website to help new Dungeons and Dragons players choose a class and race for their first character. The user will first choose to explore classes or races. From there the page will display well know pop culture references that correspond to each class or race. The page will the give detailed examples of the Class or race along with Lore, their abilities and their traditional roll in a party.
+
+Post MVP the page will display the base stats along with the class and racial features of a level 1 character built and ready to play. 
 
 <br>
 
 ### Wireframes
 
 
-![Dummy Link](url)
+![Home](https://drive.google.com/file/d/1DkVOb-4zL9pin0A_sRljizEGWkaJsaFI/view?usp=sharing)
 
 - Desktop Landing
 
-![Dummy Link](url)
+![Class/Race List](https://drive.google.com/file/d/17R43niQwydDN2BPbEkk3fu_4Zk0IW0iM/view?usp=sharing)
 
 - Desktop Body
 
-![Dummy Link](url)
+![Class/Race Info](https://drive.google.com/file/d/1TDffkgfFxwnqw8wIfToRkGtOjLBBn_5b/view?usp=sharing)
 
 - Desktop Resource Index
 
-![Dummy Link](url)
-
-- Desktop Resource Show
-
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
 
 <br>
 
@@ -57,10 +48,10 @@ Rookies & Dragons
 
 Sample Query Results:
 
-![Dummy Link](url)
-![Dummy Link](url)
-![Dummy Link](url)
-![Dummy Link](url)
+![Class List Axios Call](https://res.cloudinary.com/dyrvlnond/image/upload/v1593393870/Class-list_-_axios_Call_frrnur.png)
+![Class List Console.Log](https://res.cloudinary.com/dyrvlnond/image/upload/v1593393870/class-list_-console_lssmb5.png)
+![Class info Axios Call](https://res.cloudinary.com/dyrvlnond/image/upload/v1593393870/Class-Info_-Axios_Call_ndj0ma.png)
+![Class List Console.log](https://res.cloudinary.com/dyrvlnond/image/upload/v1593393870/Class-Info_lu6v8q.png)
 
 <br>
 
@@ -69,9 +60,10 @@ Sample Query Results:
 
 |   Library    | Description                                |
 | :----------: | :----------------------------------------- |
-|    React     | _Lorem ipsum dolor sit amet, consectetur._ |
-| React Router | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Axios    | _Lorem ipsum dolor sit amet, consectetur._ |
+|    React     | The Building Blocks for the project |
+| React Router | Used to link components |
+|     Axios    | Used to get make the API requests |
+|   Bootstrap  | Styling for the page |
 
 <br>
 
@@ -98,43 +90,42 @@ src
 
 #### MVP Breakdown
 
-> Use this section to go into further depth regarding every component, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
 
 |  Component   |    Type    | state | props | hooks | Description                                |
 | :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
-|    App.js    |   class    |   y   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Header    | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Navigation  | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Home     | functional |   n   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Index     | functional |   n   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Detail    | functional |   n   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|   Gallery    |   class    |   y   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-| Gallery Card | functional |   n   |   y   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
+|    App.js    |   class    |   y   |   n   |   n   | Initial Axios Call and the basic homepage for the site |
+|  Navigation  | functional |   n   |   n   |   n   | Quick Links to every page|
+|   RoleList   | Functional |   n   |   n   |   y   | Displays the list of classes along with known references/examples |
+|   RoleInfo   |    Class   |   n   |   n   |   y   | Detailed breakdown of specific Classes     |
+|   RaceList   | Functional |   y   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
+|   RaceInfo   |    Class   |   n   |   y   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
 |    Footer    | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
 
 <br>
 
 #### MVP Timeframes
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
 
-| Task             | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| HTML & CSS    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Initial API setup     |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| API component Endpoints    |    H     |     3 hrs      |     1 hrs     |     TBD     |
-|       |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL            |          |     6 hrs      |     3 hrs     |     TBD     |
+| Task                      | Priority | Estimated Time | Time Invested | Actual Time |
+| ----------------          | :------: | :------------: | :-----------: | :---------: |
+| HTML & CSS                |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Initial API setup         |    H     |     4 hrs      |     1 hrs     |     TBD     |
+| API component Endpoints   |    H     |     5 hrs      |     1 hrs     |     TBD     |
+| Hard Coded Details        |    M     |     4 hrs      |     1 hrs     |     TBD     |
+| Routing & Links           |    L     |     3 hrs      |     1 hrs     |     TBD     |
+| RoleList                  |    M     |     4 hrs      |     3 hrs     |     TBD     |
+| RoleInfo                  |    H     |     6 hrs      |     3 hrs     |     TBD     |
+| ClassList                 |    M     |     4 hrs      |     3 hrs     |     TBD     |
+| ClassInfo                 |    H     |     6 hrs      |     3 hrs     |     TBD     |
+| TOTAL                     |    -     |     39 hrs     |     3 hrs     |     TBD     |
+
 
 <br>
 
 ### Post-MVP
 
 
-- Store the users choices for Class and Race, to build a character template.  
+- Store the users choices for Class and Race to build a ready to use character template.  
 - Random Stat Generator to make a more fleshed out character for the user.
 - Integrate with another API for more images.
 
