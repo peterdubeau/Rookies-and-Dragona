@@ -1,0 +1,62 @@
+[
+  {
+    "roleName": "Barbarian",
+    "description": "The relentless combatant, fueled by fury or it's totem bonds with animals. In tune with the natural order.",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Bard",
+    "description": "A story teller or musician using his wits, magic, and lore to get out of (or avoid) tight situations",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Cleric",
+    "description": "A Holy man devoted to a deity. capable of bolstering the party and heal their wounds, or laying low their enemies with divine wrath.",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Druid",
+    "description": "A nomad devoted to the world and the powers of Nature. Capable of adopting the form of a beast for battle or utility. capable of bolstering the party and heal their wounds, or laying low their enemies with nature's wrath",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Fighter",
+    "description": "Skilled combatant or strategist typically relying on his heavy armor and weapons to cut down their enemies. His training gives him unique abilities",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Monk",
+    "description": "A martial artist pulling on the power of his own body to produce impressive results.",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Paladin",
+    "description": "Nearly as skilled as the Fighter but bolsters his efforts with divine magic. through his devotion he gains special boons from his god.",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Ranger",
+    "description": "One who uses a unique blend of wilderness knowledge and martial ability to be a deadly hunter, with a bow, a pet or melee weapons",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Rogue",
+    "description": "A thief, assassin or stealthy character who has a knack for picking out his enemies weaknesses and exploiting them.",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Sorcerer",
+    "description": "A magic user who draws his power from within, summoning his innate magical power and bending it to his will",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Warlock",
+    "description": "Made a pact with a powerful entity the warlock trades favors for boons and spells.",
+    "imageUrl": ""
+  },
+  {
+    "roleName": "Wizard",
+    "description": "Keeper of arcane secrets and forgotten knowledge, the wizard manipulates magic and spells with cunning.",
+    "imageUrl": ""
+  },
+]
