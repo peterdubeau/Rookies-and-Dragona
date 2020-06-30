@@ -8,7 +8,7 @@ class RoleAbilities extends React.Component {
     try {
       const res = await axios (`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}/levels/1`)
       this.setState(res.data)
-      // console.log(res.data)
+      console.log(res.data)
       
 
     } catch (error) {

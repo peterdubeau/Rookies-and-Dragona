@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
-import RoleDescriptions from './RoleDescriptions.json'
+import RoleDetails from './RoleDetails.json'
 import RoleList from './RoleList'
 import RoleInfo from './RoleInfo'
 import RoleStats from './RoleStats'
@@ -47,7 +47,7 @@ class App extends Component {
       <h3><Link to="/:classes">Let's find you a class to play!</Link></h3>
       <main>
         <Route path="/:classes" exact>
-          <RoleList roles={this.state.roleList} RoleDescriptions={RoleDescriptions}/>
+          <RoleList roles={this.state.roleList} RoleDetails={RoleDetails}/>
         </Route>
         <Route path="/classes/:index">
           <RoleInfo url={this.state.roleList} />
