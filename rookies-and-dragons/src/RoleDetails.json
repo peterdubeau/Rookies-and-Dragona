@@ -2,61 +2,61 @@
   {
     "roleName": "Barbarian",
     "description": "The relentless combatant, fueled by fury or it's totem bonds with animals. In tune with the natural order.",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png"
   },
   {
     "roleName": "Bard",
     "description": "A story teller or musician using his wits, magic, and lore to get out of (or avoid) tight situations",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/369/420/618/636272705936709430.png"
   },
   {
     "roleName": "Cleric",
-    "description": "A Holy man devoted to a deity. capable of bolstering the party and heal their wounds, or laying low their enemies with divine wrath.",
-    "imageUrl": ""
+    "description": "A holy man devoted to a deity. capable of bolstering the party and heal their wounds, or laying low their enemies with divine wrath.",
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/371/420/618/636272706155064423.png"
   },
   {
     "roleName": "Druid",
     "description": "A nomad devoted to the world and the powers of Nature. Capable of adopting the form of a beast for battle or utility. capable of bolstering the party and heal their wounds, or laying low their enemies with nature's wrath",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/346/420/618/636272691461725405.png"
   },
   {
     "roleName": "Fighter",
     "description": "Skilled combatant or strategist typically relying on his heavy armor and weapons to cut down their enemies. His training gives him unique abilities",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/359/420/618/636272697874197438.png"
   },
   {
     "roleName": "Monk",
     "description": "A martial artist pulling on the power of his own body to produce impressive results.",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/489/420/618/636274646181411106.png"
   },
   {
     "roleName": "Paladin",
     "description": "Nearly as skilled as the Fighter but bolsters his efforts with divine magic. through his devotion he gains special boons from his god.",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/365/420/618/636272701937419552.png"
   },
   {
     "roleName": "Ranger",
     "description": "One who uses a unique blend of wilderness knowledge and martial ability to be a deadly hunter, with a bow, a pet or melee weapons",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/367/420/618/636272702826438096.png"
   },
   {
     "roleName": "Rogue",
     "description": "A thief, assassin or stealthy character who has a knack for picking out his enemies weaknesses and exploiting them.",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/384/420/618/636272820319276620.png"
   },
   {
     "roleName": "Sorcerer",
     "description": "A magic user who draws his power from within, summoning his innate magical power and bending it to his will",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/485/420/618/636274643818663058.png"
   },
   {
     "roleName": "Warlock",
     "description": "Made a pact with a powerful entity the warlock trades favors for boons and spells.",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/375/420/618/636272708661726603.png"
   },
   {
     "roleName": "Wizard",
     "description": "Keeper of arcane secrets and forgotten knowledge, the wizard manipulates magic and spells with cunning.",
-    "imageUrl": ""
+    "imageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/357/420/618/636272696881281556.png"
   }
 ]

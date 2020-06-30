@@ -31,7 +31,7 @@ class RoleEquipment extends React.Component {
     }
 
     return (
-    <div className="equipment">
+    <div id="equipment" className="role-cards">
       <h2>Here's an example of {this.props.match.params.index} starting equipment:</h2>
     
 

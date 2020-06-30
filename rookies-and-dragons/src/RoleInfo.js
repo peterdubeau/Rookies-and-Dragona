@@ -1,7 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-
-
+import RoleDetails from './RoleDetails.json'
 import { withRouter } from 'react-router-dom'
 
 
@@ -26,7 +25,11 @@ class RoleInfo extends React.Component {
     return (
       <div className="intro">
         <h3>So, you wanna play a {this.props.match.params.index}? Hell Yeah!! Here's some info about them!:</h3>
-        {this.props.RoleDetails.filter(des => des.roleName === this.props.match.params.index).map(filteredDescription => <h4>{filteredDescription.description}</h4>)}
+        {RoleDetails.filter(des => des.roleName === this.props.match.params.index).map(filteredDescription => <>
+          <img src={filteredDescription.imageUrl}/>
+          <h4>{filteredDescription.description}</h4>
+          </>
+        )}
       </div >
     )
   }

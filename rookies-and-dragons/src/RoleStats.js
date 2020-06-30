@@ -20,7 +20,7 @@ class RoleStats extends React.Component {
     }
 
     return (
-      <div className="stats">
+      <div id="stats" className="role-cards">
         <p>Hit Die: d{this.state.hit_die}</p>
         <h3 key={this.state.proficiencies.name}>Weapon & armor proficiencies:</h3>{this.state.proficiencies.map(wepProf => 
           <p key ={wepProf.name}> {wepProf.name}</p>

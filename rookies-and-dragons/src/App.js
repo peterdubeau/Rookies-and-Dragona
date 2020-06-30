@@ -3,7 +3,6 @@ import { Route, Link } from 'react-router-dom'
 import RoleDescriptions from './RoleDescriptions.json'
 import RoleList from './RoleList'
 import RoleInfo from './RoleInfo'
-import RoleDetails from './RoleDetails.json'
 import RoleStats from './RoleStats'
 import RoleEquipment from './RoleEquipment'
 import "./App.css"
@@ -51,10 +50,12 @@ class App extends Component {
           <RoleList roles={this.state.roleList} RoleDescriptions={RoleDescriptions}/>
         </Route>
         <Route path="/classes/:index">
-          <RoleInfo url={this.state.roleList} RoleDetails={RoleDetails}/>
-          {/* <RoleStats stats={this.state.roleList} /> */}
-          {/* <RoleEquipment role={this.state.roleList}/> */}
-          {/* <RoleAbilities /> */}
+          <RoleInfo url={this.state.roleList} />
+          <div className ="role-card-container">
+            <RoleStats stats={this.state.roleList} />
+            <RoleEquipment role={this.state.roleList}/>
+            <RoleAbilities />
+          </div>
         </Route>
         
       </main>

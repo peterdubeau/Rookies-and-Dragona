@@ -1,25 +1,24 @@
 main{
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .intro{
   background-color: grey;
   text-align: center;
+
 }
 
-.stats{
-  background-color: lightblue;
+.role-card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.role-cards{
   border: 2px solid black;
-}
-
-.equipment{
-  background-color: lightgray;
-}
-
-.abilities{
-  background-color: darkgoldenrod
+  min-width: 200px;
+  max-width: 30%;
 }
 
 .rolelist-images{
@@ -29,4 +28,16 @@ main{
 
 .rolelist-name{
   font-size: 40px;
+}
+
+#stats{
+  background-color: lightblue;
+}
+
+#equipment{
+  background-color: lightgray;
+}
+
+#abilities{
+  background-color: darkgoldenrod
 }

@@ -20,7 +20,7 @@ class RoleAbilities extends React.Component {
     if (this.state == null) {
       return "Loading..."
     }
-    return (<div className="abilities">
+    return (<div id="abilities" className="role-cards">
       <h3>Level 1 {this.state.class.name}  abilities</h3>
       
       {this.state.features.map(feature => <p key={feature.name}>{feature.name}</p>)}
