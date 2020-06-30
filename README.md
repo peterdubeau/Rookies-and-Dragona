@@ -1,7 +1,5 @@
 
-# TITLE <!-- omit in toc -->
-
-Rookies & Dragons
+# Rookies & Dragons
 
 ### Description
 
@@ -62,7 +60,7 @@ Sample Query Results:
 | :----------: | :----------------------------------------- |
 |    React     | The Building Blocks for the project |
 | React Router | Used to link components |
-|     Axios    | Used to get make the API requests |
+|    Axios     | Used to get make the API requests |
 |   Bootstrap  | Styling for the page |
 
 <br>

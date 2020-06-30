@@ -51,9 +51,9 @@ class App extends Component {
         </Route>
         <Route path="/classes/:index">
           <RoleInfo url={this.state.roleList} />
-          <RoleStats stats={this.state.roleList} />
-          <RoleEquipment role={this.state.roleList}/>
-          <RoleAbilities />
+          {/* <RoleStats stats={this.state.roleList} /> */}
+          {/* <RoleEquipment role={this.state.roleList}/> */}
+          {/* <RoleAbilities /> */}
         </Route>
         
       </main>
