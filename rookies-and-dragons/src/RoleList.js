@@ -4,17 +4,17 @@ import { Link, withRouter } from 'react-router-dom'
 
 function RoleList(props) {
 
-  const des = props.RoleDescriptions.find(des => des.roleName === props.match.params.classes)
+  const des = props.RoleDescriptions
   
   
-  // console.log(des[0].description)
+
     return (
     <>
         {props.roles.map(role =>
           <div key={role.name}className="role-list">
-            <Link to={`/classes/${role.name}`}><p key={role.name}>{role.name}</p></Link>
-            <p>{des.roleName}</p> 
-            {/* <p>class explanation</p> */}
+            <Link to={`/classes/${role.name}`}><p className="rolelist-name" key={role.name}>{role.name}</p></Link>
+            {des.filter(name => name.roleName === role.name).map(filteredName => <p>{filteredName.description}</p>)}
+            {des.filter(image => image.roleName === role.name).map(filteredImage => <img className="rolelist-images"src={filteredImage.imageUrl}/>)}
           </div>
         )}
         

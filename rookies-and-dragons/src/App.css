@@ -21,3 +21,12 @@ main{
 .abilities{
   background-color: darkgoldenrod
 }
+
+.rolelist-images{
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.rolelist-name{
+  font-size: 40px;
+}

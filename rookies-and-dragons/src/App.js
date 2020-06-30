@@ -46,7 +46,7 @@ class App extends Component {
       </nav>
       <h3><Link to="/:classes">Let's find you a class to play!</Link></h3>
       <main>
-        <Route path="/:name" exact>
+        <Route path="/:classes" exact>
           <RoleList roles={this.state.roleList} RoleDescriptions={RoleDescriptions}/>
         </Route>
         <Route path="/classes/:index">
