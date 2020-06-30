@@ -1,5 +1,7 @@
 import React from 'react'
 import axios from 'axios'
+
+
 import { withRouter } from 'react-router-dom'
 
 
@@ -10,7 +12,7 @@ class RoleInfo extends React.Component {
     try {
       const res = await axios(`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}`)
       this.setState(res.data)
-
+          // console.log(this.props.match.params.index)
     } catch (error) {
       console.log(error)
     }
@@ -24,7 +26,7 @@ class RoleInfo extends React.Component {
     return (
       <div className="intro">
         <h3>So, you wanna play a {this.props.match.params.index}? Hell Yeah!! Here's some info about them!:</h3>
-        <h4>----A quick overview of the class is going to go here----</h4>
+        {this.props.RoleDetails.filter(des => des.roleName === this.props.match.params.index).map(filteredDescription => <h4>{filteredDescription.description}</h4>)}
       </div >
     )
   }
