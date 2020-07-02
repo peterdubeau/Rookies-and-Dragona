@@ -3,7 +3,26 @@ main{
   flex-direction: column;
 }
 
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgrey;
+  font-size: 30px;
+}
+
+.role-detail h3{
+  font-size: 30px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .intro{
+  display: flex;
   background-color: grey;
   text-align: center;
 
@@ -16,18 +35,49 @@ main{
 }
 
 .role-cards{
+  margin-top: 30px;
+  padding: 0px 10px;
   border: 2px solid black;
   min-width: 200px;
   max-width: 30%;
 }
 
-.rolelist-images{
-  height: 200px;
-  margin-bottom: 30px;
+.role-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.rolelist-name{
-  font-size: 40px;
+.role-image{
+  max-height: 200px;
+}
+
+.role-list-cards{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  align-items: center;
+  margin: 10px 5%;
+}
+
+.role-list-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.role-list-images{
+  height: 200px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.role-list-name{
+  font-size: 30px;
+}
+
+.role-name-des{
+  display: flex;
+  flex-direction: column;
 }
 
 #stats{

@@ -12,7 +12,6 @@ class RoleEquipment extends React.Component {
       const res = await axios (`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}/starting-equipment`)
       // const filteredChoices  = choices.filter(filteredChoices => filteredChoices === "choices_")
       this.setState(res.data)
-      console.log(res.data)
 
     } catch (error) {
       console.log(error)

@@ -24,10 +24,11 @@ class RoleInfo extends React.Component {
 
     return (
       <div className="intro">
-        <h3>So, you wanna play a {this.props.match.params.index}? Hell Yeah!! Here's some info about them!:</h3>
         {RoleDetails.filter(des => des.roleName === this.props.match.params.index).map(filteredDescription => <>
-          <img src={filteredDescription.popImageUrl}/>
-          <h4>{filteredDescription.description}</h4>
+          <img className="role-image" src={filteredDescription.popImageUrl} />
+          <div className="role-detail"><h3>So, you wanna play a {this.props.match.params.index}? Hell Yeah!! Here's some info about them!:</h3>
+          <h4>{filteredDescription.description}</h4></div>
+        
           </>
         )}
       </div >
