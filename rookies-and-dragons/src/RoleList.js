@@ -10,7 +10,7 @@ function RoleList(props) {
 
     return (
       <div className="role-list-container">
-        <h1>Add some text here about what a class actually is</h1>
+        <p className="what-is-a-class">Add some text here about what a class actually is</p>
         {props.roles.map(role =>
           <div key={role.name}className="role-list-cards">
            {des.filter(image => image.roleName === role.name).map(filteredImage => <img className="role-list-images" src={filteredImage.imageUrl} />)}

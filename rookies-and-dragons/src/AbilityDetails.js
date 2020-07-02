@@ -1,23 +1,14 @@
 import React from 'react'
 import { withRouter } from 'react-router'
-import axios from 'axios'
  
 function AbilityDetails(props) {
 
- async function componentDidMount() {
-   const apiCall = props.abilities.map(abilities => axios(`https://www.dnd5eapi.co${abilities.url}`))
-   const res = await Promise.all(apiCall)
-  //  let des = res.map(info => info.data.desc)
-  //  let des2 = des.map(description => description.desc)
-  console.log(res)
- }
- componentDidMount(props)
   return (
     <div>
       {props.details.map(info =>
         <div>
-          <p>{info.data.name}</p>
-          <p>{info.data.desc}</p>
+          <p id="ability-name">{info.data.name}</p>
+          <p>{info.data.desc}<br /></p>
           </div>)}
     </div>
   )

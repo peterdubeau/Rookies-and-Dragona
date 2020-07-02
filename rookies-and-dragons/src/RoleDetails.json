@@ -1,52 +1,52 @@
 [
   {
     "roleName": "Barbarian",
-    "popDescription": "You wouldn’t like them when they’re angry. Barbarians are by fury or it's totem bonds with animals. In tune with the natural order.",
+    "popDescription": "You wouldn’t like them when they’re angry. Barbarians are powered by fury or it's totem bonds with animals. In they are generally in tune with the natural order.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png",
     "description": "Barbarians are strong warriors who typically fight without armor and use powerful weapons. The are relentless combatants, who enter a berserk rage in which they become even stronger. They're typically not very smart, but that isn’t written in stone.",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Hulk_%28circa_2019%29.png/250px-Hulk_%28circa_2019%29.png"
   },
   {
     "roleName": "Bard",
-    "popDescription": "A story teller or musician using his wits, magic, and lore to get out of (or avoid) tight situations",
+    "popDescription": "Story tellers or musicians that use thier wits, magic, and lore to get out of (or avoid) tight situations",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/369/420/618/636272705936709430.png",
     "description": "Jack of all trades. They’re really good, but not the best, at almost everything; They can fight, sneak around (but not as good as a rogue) Cast magic (but not as good as a wizard) Charm people (they’re probably the best at this actually) They can fit any role They inspire their allies to be better. They cast their magic and charms through music, art or performance",
     "imageUrl": "https://geekandsundry.com/wp-content/uploads/2018/02/tenacious.jpg"
 },
   {
     "roleName": "Cleric",
-    "popDescription": "A holy man devoted to a deity. capable of bolstering the party and heal their wounds, or laying low their enemies with divine wrath.",
+    "popDescription": "A holy warrior devoted to a deity. Capable of bolstering the party, healing wounds, or laying low their enemies with divine wrath.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/371/420/618/636272706155064423.png",
     "description": "Powered by a deity. They can be healers, helpers and they can fight (very versitile). Some are front line fighters, others are more dangerous with spells. Their power reflects their god: A god of life grants better healing A god of storms grants power of the weather (Thor) A god of nature grants power over nature",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/disney-TDW0NNG1-Full-Image_GalleryBackground-en-US-1483993494274._SX1080_.jpg"
+    "imageUrl": "https://i.ya-webdesign.com/images/avengers-movie-png-6.png"
   },
   {
     "roleName": "Druid",
     "popDescription": "A nomad devoted to the world and the powers of Nature. Capable of adopting the form of a beast for battle or utility. capable of bolstering the party and heal their wounds, or laying low their enemies with nature's wrath",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/346/420/618/636272691461725405.png",
     "description": "The power of Nature dude. They get their power directly from the earth. They’re similar to clerics in a way, but more caster and less fighter. Except when they turn into animals, like a bear, then they’re good fighter. Protectors of the environment",
-    "imageUrl": "https://i.redd.it/lxt0n30jwpx01.jpg"
+    "imageUrl": "https://i.ya-webdesign.com/images/maui-moana-png-5.png"
   },
   {
     "roleName": "Fighter",
-    "popDescription": "Skilled combatant or strategist typically relying on his heavy armor and weapons to cut down their enemies. His training gives him unique abilities",
+    "popDescription": "Skilled combatant or strategist typically relying on heavy armor and weapons to cut down their enemies. A Fighters training gives them unique combat abilities",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/359/420/618/636272697874197438.png",
     "description": "They’re great at fighting. No, like REALLY great at fighting. Way better than a soldier, guard, etc. Legendary at fighting. A fighter might use heavy weapons and armor. A fighter might use bows and lighter armor. A fighter might be tactical",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/The_Hound_in_%27The_Children%27.jpg/220px-The_Hound_in_%27The_Children%27.jpg"
   },
   {
     "roleName": "Monk",
-    "popDescription": "A martial artist pulling on the power of his own body to produce impressive results.",
+    "popDescription": "A martial artist pulling on the power of their own body or soul to produce impressive results.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/489/420/618/636274646181411106.png",
     "description": "Martial Artists. Some can be harness magic to fuel their attacks. They don't NEED weapons to fight. Their firsts and feet are their weapons. (They can use weapons if they want)",
     "imageUrl": "https://i.pinimg.com/originals/97/35/2a/97352a18b151610dc66f3f693e0b9196.png"
   },
   {
     "roleName": "Paladin",
-    "popDescription": "Nearly as skilled as the Fighter but bolsters his efforts with divine magic. through his devotion he gains special boons from his god.",
+    "popDescription": "Nearly as skilled as the Fighter but can bolster their efforts with divine magic. Through their devotion a Paladin gains special boons from their god.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/365/420/618/636272701937419552.png",
     "description": "Paladins are Holy Fighters with a cause. They swear an Oath to uphold and gain power from a god (or something similar) for doing so. Similar to Clerics, but much better fighters and much less reliance on magic",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41iePHDKk7L._AC_.jpg"
+    "imageUrl": "https://lh3.googleusercontent.com/proxy/l_ONyTfJAMKva-zuIp0fl5cXA1DgpcHZ68Shi3-uymc8sMrdW3YzHCHPl9uavKRVfyV6VYRTDHKpYRl2t5JJL0NjqniPOXd0uu0nTq6NRohu2JCS1prFAz16XVmYYGtWfSiZcjnicsKga17nNl0N5pVpf-fVfI0wswYoU-SQnOoHTCJreTHtcu4qbgLo"
   },
   {
     "roleName": "Ranger",
@@ -60,14 +60,14 @@
     "popDescription": "A thief, assassin or stealthy character who has a knack for picking out his enemies weaknesses and exploiting them.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/384/420/618/636272820319276620.png",
     "description": "Charmers, thieves, sneaks. Rogues use underhanded fighting techniques to land one major hit in combat. Rogues can hide, do acrobatics and charm their way out of trouble. A rogue might be a assassin, a mastermind or a thief. Rogues aren't necessarily major criminals, but usually at least petty criminals",
-    "imageUrl": "https://www.thisisbarry.com/wp-content/uploads/Aladdin/Aladdin-Bread-Loaf.jpg"
+    "imageUrl": "https://i.dlpng.com/static/png/1744809-captain-jack-sparrow-png-pic-captain-jack-sparrow-png-1280_1024_preview.png"
   },
   {
     "roleName": "Sorcerer",
-    "popDescription": "A magic user who draws his power from within, summoning his innate magical power and bending it to his will",
+    "popDescription": "A magic user that draws their power from within, summoning his innate magical power and bending it to his will",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/485/420/618/636274643818663058.png",
     "description": "Sorcerers are magic users with an innate ability. Some Sorcerers are born with magic by chance, some have magic in their bloodline, some have their powers bestowed by a god. They just didn’t work for it. They’re “special”. Sorcerers are limited in their spells, but their spells can be incredibly powerful.",
-    "imageUrl": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/04/Storm-Header-Cropped.jpg"
+    "imageUrl": "https://img.cartoongoodies.com/wp-content/uploads/2020/01/X-Men-Storm.png"
   },
   {
     "roleName": "Warlock",
@@ -81,6 +81,6 @@
     "popDescription": "Keeper of arcane secrets and forgotten knowledge, the wizard manipulates magic and spells with cunning.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/357/420/618/636272696881281556.png",
     "description": "Wizards are academic magic users. They learn magic through intense study. As such, they have access to the large number of spells. Wizards can specialize in one 'School' of magic, which grants them additional abilities.",
-    "imageUrl": "https://vignette.wikia.nocookie.net/p__/images/a/ac/Albus_Dumbledore.jpg/revision/latest?cb=20180317215516&path-prefix=protagonist"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Goethe%27s_Faust.jpeg/800px-Goethe%27s_Faust.jpeg"
   }
 ]

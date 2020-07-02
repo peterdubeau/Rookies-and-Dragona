@@ -40,7 +40,7 @@ class App extends Component {
     return (<>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/">Find another class</Link>
+        <Link to="/classes" path="/classes/:index" exact>Find another class</Link>
       </nav>
       <main>
         <Route path="/" exact>
@@ -50,10 +50,10 @@ class App extends Component {
           <RoleList roles={this.state.roleList} RoleDetails={RoleDetails}/>
         </Route>
         <Route path="/classes/:index">
-          {/* <RoleInfo url={this.state.roleList} /> */}
+          <RoleInfo url={this.state.roleList} />
           <div className ="role-card-container">
-            {/* <RoleStats stats={this.state.roleList} /> */}
-            {/* <RoleEquipment role={this.state.roleList}/> */}
+            <RoleStats stats={this.state.roleList} />
+            <RoleEquipment role={this.state.roleList}/>
             <RoleAbilities />
           </div>
         </Route>
