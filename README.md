@@ -3,7 +3,7 @@
 
 ### Description
 
-**Rookies & Dragons** is a website to help new Dungeons and Dragons players choose a class and race for their first character. The user will first choose to explore classes or races. From there the page will display well know pop culture references that correspond to each class or race. The page will the give detailed examples of the Class or race along with Lore, their abilities and their traditional roll in a party.
+**Rookies & Dragons** is a website to help new Dungeons and Dragons players choose a class and race for their first character. The user will first choose to explore classes or races. From there the page will display well know pop culture references that correspond to each class. The page will the give detailed examples of the Class along with Lore, their abilities and their traditional roll in a party.
 
 Post MVP the page will display the base stats along with the class and racial features of a level 1 character built and ready to play. 
 
