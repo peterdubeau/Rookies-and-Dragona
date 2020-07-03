@@ -8,7 +8,7 @@
   },
   {
     "roleName": "Bard",
-    "popDescription": "Story tellers or musicians that use thier wits, magic, and lore to get out of (or avoid) tight situations",
+    "popDescription": "Story tellers or musicians that use their wits, magic, and lore to get out of (or avoid) tight situations",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/369/420/618/636272705936709430.png",
     "description": "Jack of all trades. They’re really good, but not the best, at almost everything; They can fight, sneak around (but not as good as a rogue) Cast magic (but not as good as a wizard) Charm people (they’re probably the best at this actually) They can fit any role They inspire their allies to be better. They cast their magic and charms through music, art or performance",
     "imageUrl": "https://geekandsundry.com/wp-content/uploads/2018/02/tenacious.jpg"
@@ -39,7 +39,7 @@
     "popDescription": "A martial artist pulling on the power of their own body or soul to produce impressive results.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/489/420/618/636274646181411106.png",
     "description": "Martial Artists. Some can be harness magic to fuel their attacks. They don't NEED weapons to fight. Their firsts and feet are their weapons. (They can use weapons if they want)",
-    "imageUrl": "https://i.pinimg.com/originals/97/35/2a/97352a18b151610dc66f3f693e0b9196.png"
+    "imageUrl": "https://pluspng.com/img-png/bruce-lee-png-download-bruce-lee-png-images-transparent-gallery-advertisement-593.png"
   },
   {
     "roleName": "Paladin",
@@ -60,7 +60,7 @@
     "popDescription": "A thief, assassin or stealthy character who has a knack for picking out his enemies weaknesses and exploiting them.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/384/420/618/636272820319276620.png",
     "description": "Charmers, thieves, sneaks. Rogues use underhanded fighting techniques to land one major hit in combat. Rogues can hide, do acrobatics and charm their way out of trouble. A rogue might be a assassin, a mastermind or a thief. Rogues aren't necessarily major criminals, but usually at least petty criminals",
-    "imageUrl": "https://i.dlpng.com/static/png/1744809-captain-jack-sparrow-png-pic-captain-jack-sparrow-png-1280_1024_preview.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1593791316/Jack_Sparrow_t2pr2a.png"
   },
   {
     "roleName": "Sorcerer",
@@ -74,13 +74,15 @@
     "popDescription": "Made a pact with a powerful entity the warlock trades favors for boons and spells.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/375/420/618/636272708661726603.png",
     "description": "Warlocks get their power by making a pact with a powerful entity. Like a Devil. Or something nicer, maybe an ancient Faerie Spirit Or some object, like a ring... Or some weird Alien. A Warlocks power is from a greater master who often has an ulterior motive in mind (usually unbeknownst to the Warlock) They are limited in their spells, but they are very powerful. They can fight too",
-    "imageUrl": "https://vignette.wikia.nocookie.net/bigbangtheory/images/f/ff/Gl.jpg/revision/latest/scale-to-width-down/340?cb=20121223023424"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Goethe%27s_Faust.jpeg/800px-Goethe%27s_Faust.jpeg"
   },
   {
     "roleName": "Wizard",
     "popDescription": "Keeper of arcane secrets and forgotten knowledge, the wizard manipulates magic and spells with cunning.",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/357/420/618/636272696881281556.png",
     "description": "Wizards are academic magic users. They learn magic through intense study. As such, they have access to the large number of spells. Wizards can specialize in one 'School' of magic, which grants them additional abilities.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Goethe%27s_Faust.jpeg/800px-Goethe%27s_Faust.jpeg"
+    "imageUrl": "https://foundables.com/i/f/o/AlbusDumbledore.png"
   }
 ]
+
+

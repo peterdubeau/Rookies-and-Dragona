@@ -2,6 +2,7 @@ main{
   display: flex;
   flex-direction: column;
   background-color: rgb(235, 219, 174);
+  /* background-image: src */
 }
 
 nav{
@@ -87,6 +88,10 @@ nav{
   font-size: 20px;
 }
 
+#Bard{
+  border-radius: 20px;
+}
+
 #stats{
 
 }
@@ -94,6 +99,11 @@ nav{
 #reggie-and-the-boiz{
   max-height: 500px;
   border-radius: 20px;
+}
+
+#rouge{
+  margin-right: -10px;
+  margin-left: -10px;
 }
 
 #equipment{
@@ -146,6 +156,8 @@ nav{
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhISEg8VFRUQDw8QEhUVDw8PDxUPFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0OFQ8PFS0ZFR0tKystKysrKy0tKystLS0tLS0rLS0tKy0tLSsrKys3LS0rLTc3KysrNzctNys3LTc3Lf/AABEIAP8AxQMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAgEDBAf/xAAnEAEBAQEAAgEDAwQDAAAAAAAAAQIREiEDMUFhE1FxBKHh8BSRsf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAQEBAQAAAAAAAAAAAAAAARESAlH/2gAMAwEAAhEDEQA/APuIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFrjfl5+1n93nu7frU9c77ax67834dM3vt4pvjpfm9ThPf1MeoebPz1E3Ze/u13DHsHnx/Ue/f3vr8On60/dZ6hjoOWvm5ec65b+a/b0l9Qx6h5M/PZOf9M/Wv7p3DHrla8f6t73894u/wBV+Pt/c7hj0jjf6icP+RF6hjsOE+f2fP8ANZzn3OoY7jxX57WT5ancMe3rJufTv09PA2fj7/X8p2uPfNS/SteH4d+N/wDf4eu/LGp61LFWjj8l7Q6MeTqupHFptZ1rKgWl+T/KfJMNFU87PoxiaOmdem2pgujY1kbQZdMum0kAzRqegrqZb33Wp6aOjGdJVG1nW1nEFeqrrmztXR0v8iMhozpE6Jagrpuouk2JqtJWKnsErTYqg3Na55jpFG2tRszoRadUmmaoNgyem9QayHU29oqg4aioeR5OfCJqqtJRWRGjRRckTr45fa7E8WjnuRzt9u19uXyRitRfi2Z9InVZ0sqMsZKdAJOFWxlXK/7/AAvLbk8VgDLFQRnfZZW2NxWhz7WZzXe8ZTBM6WLZoREoePU+KKvxZxcx+W0EfwOkAbaJbFqI6ard1LKsoyz/AH7piKrTJVM4orK5HP43SkQ6npuJ6DamVuoZBUiFxmlFRt059b0FWMblVyqM6lcRYiqjamNBQzoqFjG2MhRnOmlMs6YIsTMrTUU0i663NpYgvKkLlUZXLTrqI4UJ7VImRXUGyM0rNTb1Ry1erxeDfEF4rdac5WeS6Ok03qJlViDetsTj06RYJ4OkjFxHPqbWT6HWIqiVEquVRuoyJ3UXSC5WSOU0750sBnVaRwovrJGcUCinU6UOpG5iBxuWVM1QVURbmDpm1fXK1eAUpHWmjpBMa1qOGjrprKOMYrZE7+Qct+zR0lTztbicbZ7BP6bplF17VFgq5rKvJclEyFLADpU9TdAtqJpUBrnYtoGcp4q08VGSKZxQI06ZRrLYg6QMjSMtRW1DNVUjnue2+Z5INhqs0jWlE2uuXK3jfOg74ZquPm3yTRfkSue/SsiquUeLrlvFRzjeqsZYAzoyUGtGSguCaqAqpiuM8VRWQyKP/9k=');
+    background-size: cover;
   }
 
   .role-name-des{
