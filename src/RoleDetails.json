@@ -32,7 +32,8 @@
     "popDescription": "Skilled combatant or strategist typically relying on heavy armor and weapons to cut down their enemies. A Fighters training gives them unique combat abilities",
     "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/359/420/618/636272697874197438.png",
     "description": "They’re great at fighting. No, like REALLY great at fighting. Way better than a soldier, guard, etc. Legendary at fighting. A fighter might use heavy weapons and armor. A fighter might use bows and lighter armor. A fighter might be tactical",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/The_Hound_in_%27The_Children%27.jpg/220px-The_Hound_in_%27The_Children%27.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/The_Hound_in_%27The_Children%27.jpg/220px-The_Hound_in_%27The_Children%27.jpg",
+    "Direction": "left"    
   },
   {
     "roleName": "Monk",

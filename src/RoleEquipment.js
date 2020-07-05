@@ -35,16 +35,13 @@ class RoleEquipment extends React.Component {
     
 
       Choose one from:
-        <p>(a){this.state.choice_1[0].from[0].item.name}</p> {/*& {this.state.choice_1[0].from[1].item.name}(s)</p> */}
+        <p>-{this.state.choice_1[0].from[0].item.name}</p>
        
-        <p>(b){this.state.choice_1[1].from[Math.floor(Math.random() * this.state.choice_1[1].from.length)].item.name}</p>
-        
-        {/* {this.state.choice_1.map(c1 =>
-       <p>- {c1.from[Math.floor(Math.random() * c1.from.length)].item.name}</p> 
-      )} */}
-      Choose One from: {this.state.choice_2.map(c2 => <p>  - {c2.from[Math.floor(Math.random() * c2.from.length)].item.name}</p>)}
+        <p>-{this.state.choice_1[1].from[Math.floor(Math.random() * this.state.choice_1[1].from.length)].item.name}</p>
+   
+        Choose One from: {this.state.choice_2.map(c2 => <p>  - {c2.from[Math.floor(Math.random() * c2.from.length)].item.name}</p>)}
     
-      You also get: {this.state.starting_equipment.map(pack =>
+        You also get: {this.state.starting_equipment.map(pack =>
         
         <p>-{pack.quantity} {pack.item.name}(s)</p>)}
     </div>

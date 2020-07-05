@@ -29,7 +29,7 @@ function SkillProf(props) {
   return (
     <div>
       {maxSkills.map(skill => <p>{skill.name}</p>)}
-      <button onClick={handleClick}>Don't like these skills? try {numChoice} more!</button>
+      
    </div>
   )
 }

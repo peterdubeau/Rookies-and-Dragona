@@ -4,16 +4,26 @@ import axios from 'axios'
 import SkillProf from './SkillProf'
 
 class RoleStats extends React.Component {
+
   async componentDidMount() {
-   
+    
     try {
       const res = await axios(`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}`)
       this.setState(res.data)
+      console.log(this.props)
+      console.log(this.state)
       // console.log(res.data)
     } catch (error) {
       console.log(error)
     }
   }
+
+  // componentDidUpdate(props) {
+  //   if (this.state !== this.props.state) {
+  //     const res = axios(`https://www.dnd5eapi.co/api${this.state.url.toLowerCase()}`)
+  //     this.setState(res.data)
+  //   } 
+  // }
 
   render() {
     if (this.state == null) {
@@ -29,9 +39,9 @@ class RoleStats extends React.Component {
         <h3 key={this.state.saving_throws}>Saving Throws:</h3> {this.state.saving_throws.map(saves => saves.name + " ")}
         <p key={this.state.proficiency_choices}>
           <h3>Skill Proficiencies.<br /> Choose {this.state.proficiency_choices[0].choose} of the following:</h3>
-          {/* {this.state.proficiency_choices[0].from.map(prof => <p key={prof.name}>{prof.name}</p>)} */}
         </p>
         <SkillProf skills={this.state.proficiency_choices} />
+        {/* <button onClick={this.componentDidUpdate}>Don't like these skills? more!</button> */}
       </div>
     )
   }
