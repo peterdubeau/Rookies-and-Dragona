@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+}
+
 body{
   background-color: rgb(235, 219, 174);
   
@@ -30,6 +34,11 @@ nav{
   display: flex;
   text-align: center;
 
+}
+
+.page-intro{
+  text-align: center;
+  padding: 30px;
 }
 
 .role-card-container{
@@ -81,9 +90,9 @@ nav{
   margin: 20px 30px;
 }
 
-.role-list-name{
+p.role-list-name{
   font-size: 30px;
-
+  font-family: 'Merienda', cursive;
 }
 
 .role-name-des{
@@ -127,6 +136,12 @@ nav{
   font-weight: bold;
 }
 
+@media (min-width: 1000px){
+  main {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 600px){
   a{
     display: flex;
@@ -162,6 +177,10 @@ nav{
 
   .role-image, .role-list-images, .role-list-name{
     margin: 5px auto;
+  }
+
+  .role-list-name{
+
   }
 
   .role-list-description{
