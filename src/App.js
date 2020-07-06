@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
+import Footer from './Footer'
 import RoleDetails from './RoleDetails.json'
 import RoleList from './RoleList'
 import RoleInfo from './RoleInfo'
@@ -57,7 +58,7 @@ class App extends Component {
             <RoleAbilities />
           </div>
         </Route>
-        
+        <Footer />
       </main>
     
         </>)

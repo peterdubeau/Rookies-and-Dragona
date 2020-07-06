@@ -24,8 +24,20 @@ class RoleStats extends React.Component {
   //     this.setState(res.data)
   //   } 
   // }
+  
 
   render() {
+
+    const stats = {
+      STR: "strength",
+      DEX: "Dexterity",
+      CON: "Constitution",
+      INT: "Intelligence",
+      WIS: "Wisdom",
+      CHA: "Charisma"
+    
+    }
+
     if (this.state == null) {
       return "Loading..."
     }
@@ -38,7 +50,7 @@ class RoleStats extends React.Component {
         )}
         <h3 key={this.state.saving_throws}>Saving Throws:</h3> {this.state.saving_throws.map(saves => saves.name + " ")}
         <p key={this.state.proficiency_choices}>
-          <h3>Skill Proficiencies.<br /> Choose {this.state.proficiency_choices[0].choose} of the following:</h3>
+          <h3>Skill Proficiencies.<br /> You have the following {this.state.proficiency_choices[0].choose} skills:</h3>
         </p>
         <SkillProf skills={this.state.proficiency_choices} />
         {/* <button onClick={this.componentDidUpdate}>Don't like these skills? more!</button> */}

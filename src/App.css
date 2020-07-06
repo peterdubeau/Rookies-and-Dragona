@@ -19,22 +19,49 @@ nav{
   font-size: 30px;
 }
 
-.role-detail h3{
-  font-size: 30px;
+.contact{
+  font-size: 20px;
+
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: auto 40px;
+  margin-bottom: 0;
+  padding: 0px;
+}
+
+.footer-icons{
+  height: 50px; 
+  margin: 20px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+
 
 .home{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+}
+
+.icon-container{
+  display: flex;
 }
 
 .intro{
   display: flex;
+  align-items: center;
   text-align: center;
-
+  margin: 30px;
 }
+
 
 .page-intro{
   text-align: center;
@@ -45,6 +72,10 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.role-detail h3{
+  font-size: 30px;
 }
 
 .role-cards{
@@ -59,11 +90,12 @@ nav{
 .role-detail{
   display: flex;
   flex-direction: column;
+  font-size: 30px;
   justify-content: space-around;
 }
 
 .role-image{
-  max-height: 200px;
+  max-height: 400px;
 }
 
 .role-list-cards{
@@ -124,12 +156,13 @@ p.role-list-name{
   margin-left: -10px;
 }
 
-#equipment{
-  
-}
 
-#abilities{
-  
+#name{
+  font-size:15px;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  left: 0;
 }
 
 #ability-name{
