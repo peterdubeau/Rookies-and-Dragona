@@ -134,7 +134,7 @@ p.role-list-name{
 
 .what-is-a-class{
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   margin: 30px;
 }
 
@@ -212,10 +212,6 @@ p.role-list-name{
     margin: 5px auto;
   }
 
-  .role-list-name{
-
-  }
-
   .role-list-description{
     font-family: 'Merienda', cursive;
     font-size: 25px;
@@ -231,6 +227,15 @@ p.role-list-name{
 
   .role-name-des{
     align-items: center;
+  }
+
+  .what-is-a-class{
+    font-size:20px;
+
+  }
+
+  #bard{
+    max-width: 95%;
   }
 
   #reggie-and-the-boiz{
