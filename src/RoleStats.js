@@ -10,34 +10,13 @@ class RoleStats extends React.Component {
     try {
       const res = await axios(`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}`)
       this.setState(res.data)
-      console.log(this.props)
-      console.log(this.state)
-      // console.log(res.data)
+
     } catch (error) {
-      console.log(error)
+
     }
   }
 
-  // componentDidUpdate(props) {
-  //   if (this.state !== this.props.state) {
-  //     const res = axios(`https://www.dnd5eapi.co/api${this.state.url.toLowerCase()}`)
-  //     this.setState(res.data)
-  //   } 
-  // }
-  
-
   render() {
-
-    const stats = {
-      STR: "strength",
-      DEX: "Dexterity",
-      CON: "Constitution",
-      INT: "Intelligence",
-      WIS: "Wisdom",
-      CHA: "Charisma"
-    
-    }
-
     if (this.state == null) {
       return "Loading..."
     }
@@ -53,7 +32,6 @@ class RoleStats extends React.Component {
           <h3>Skill Proficiencies.<br /> You have the following {this.state.proficiency_choices[0].choose} skills:</h3>
         </p>
         <SkillProf skills={this.state.proficiency_choices} />
-        {/* <button onClick={this.componentDidUpdate}>Don't like these skills? more!</button> */}
       </div>
     )
   }

@@ -93,11 +93,13 @@ src
 | :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
 |    App.js    |   class    |   y   |   n   |   n   | Initial Axios Call and the basic homepage for the site |
 |  Navigation  | functional |   n   |   n   |   n   | Quick Links to every page|
-|   RoleList   | Functional |   n   |   n   |   y   | Displays the list of classes along with known references/examples |
-|   RoleInfo   |    Class   |   n   |   n   |   y   | Detailed breakdown of specific Classes     |
-|   RaceList   | Functional |   y   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|   RaceInfo   |    Class   |   n   |   y   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Footer    | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
+|   RoleList   | Functional |   n   |   y   |   n   | Displays the list of classes along with known references/examples |
+|   RoleInfo   |    Class   |   y   |   y   |   n   | Detailed breakdown of specific Classes     |
+|  RoleStats   |    Class   |   y   |   y   |   n   | Displays bas statistics of chosen Class|
+|RoleEquipment |    Class   |   y   |   y   |   n   | Displays examples of starting Equipment for chosen class|
+|RoleAbilities |    Class   |   y   |   y   |   n   | Displays the names of all first level abilities for chosen class |
+|AbilityDetails| functional |   n   |   n   |   n   | Displays the details of any ability displayed in RoleAbility |
+|    Footer    | functional |   n   |   n   |   n   | Contact information |
 
 <br>
 
@@ -106,16 +108,16 @@ src
 
 | Task                      | Priority | Estimated Time | Time Invested | Actual Time |
 | ----------------          | :------: | :------------: | :-----------: | :---------: |
-| HTML & CSS                |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Initial API setup         |    H     |     4 hrs      |     1 hrs     |     TBD     |
-| API component Endpoints   |    H     |     5 hrs      |     1 hrs     |     TBD     |
-| Hard Coded Details        |    M     |     4 hrs      |     1 hrs     |     TBD     |
-| Routing & Links           |    L     |     3 hrs      |     1 hrs     |     TBD     |
-| RoleList                  |    M     |     4 hrs      |     3 hrs     |     TBD     |
-| RoleInfo                  |    H     |     6 hrs      |     3 hrs     |     TBD     |
-| ClassList                 |    M     |     4 hrs      |     3 hrs     |     TBD     |
-| ClassInfo                 |    H     |     6 hrs      |     3 hrs     |     TBD     |
-| TOTAL                     |    -     |     39 hrs     |     3 hrs     |     TBD     |
+| CSS                       |    L     |     3 hrs      |     5 hrs     |    3 hrs    |
+| Initial API setup         |    H     |     2 hrs      |     2 hrs     |     TBD     |
+| Hard Coded Details (JSON) |    M     |     3 hrs      |     4 hrs     |     TBD     |
+| Routing & Links           |    L     |     3 hrs      |     3 hrs     |     TBD     |
+| RoleList                  |    M     |     4 hrs      |     4 hrs     |     TBD     |
+| RoleInfo                  |    H     |     4 hrs      |     4 hrs     |     TBD     |
+| RoleStats                 |    M     |     4 hrs      |     4 hrs     |     TBD     |
+| RoleEquipment             |    H     |     4 hrs      |     5 hrs     |     TBD     |
+| Ability Components        |    M     |     4 hrs      |     6 hrs     |     TBD     |
+| TOTAL                     |    -     |     39 hrs     |     39 hrs    |     TBD     |
 
 
 <br>
@@ -131,14 +133,18 @@ src
 
 ***
 
-## Project Delivery
-
-> The Project Delivery section should be completed as your work on your project.
 
 ### Code Showcase
+I had to figure out a way to make multiple API calls to different endpoints at once based on the results from the original call and the info rendered from the map function. This code below allowed me to do it and render then info I needed from there. 
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+```
+async componentDidMount() {
+
+      const res = await axios(`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}/levels/1`)
+      const info = res.data.features
+      const apiCall = info.map(abilities => axios(`https://www.dnd5eapi.co${abilities.url}`))
+      const deets = await Promise.all(apiCall)
+    
+```
 
 ### Code Issues & Resolutions
-
-> Use this section to list of all major issues encountered and their resolution, if you'd like.

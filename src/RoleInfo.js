@@ -11,9 +11,9 @@ class RoleInfo extends React.Component {
     try {
       const res = await axios(`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}`)
       this.setState(res.data)
-          // console.log(this.props.match.params.index)
+
     } catch (error) {
-      console.log(error)
+    
     }
   }
 
@@ -34,16 +34,6 @@ class RoleInfo extends React.Component {
       </div >
     )
   }
-}
-
-
-;
+};
 
 export default withRouter(RoleInfo)
-
-    // axios(`https://www.dnd5eapi.co/api${this.props.match.url.toLowerCase()}`)
-    //   .then(res => {
-    //     this.setState(res.data)
-    //   }).catch(err => {
-    //     console.log(err)
-    //   })

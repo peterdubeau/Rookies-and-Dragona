@@ -21,10 +21,7 @@ function SkillProf(props) {
   
   function handleClick() {
     shuffle(allSkills)
-    console.log(allSkills)
   }
-  console.log(allSkills)
-  console.log(maxSkills)
 
   return (
     <div>
