@@ -25,8 +25,7 @@ class App extends Component {
     try {
       const res = await axios('https://www.dnd5eapi.co/api/classes')
       const role = res.data.results
- 
-      
+
       this.setState({
         roleList: role
       })
@@ -54,7 +53,8 @@ class App extends Component {
           <RoleInfo url={this.state.roleList} />
           <div className ="role-card-container">
             <RoleStats stats={this.state.roleList} />
-            <RoleEquipment role={this.state.roleList}/>
+            {/* <RoleEquipment role={this.state.roleList}/> 
+            API Changed skills and equipment. Will have to update later*/} 
             <RoleAbilities />
           </div>
         </Route>

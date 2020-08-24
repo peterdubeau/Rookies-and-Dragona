@@ -2,87 +2,87 @@
   {
     "roleName": "Barbarian",
     "popDescription": "You wouldn’t like them when they’re angry. Barbarians are powered by fury or it's totem bonds with animals. In they are generally in tune with the natural order.",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306248/Rookies%20and%20Dragons/Real%20Pics/barbarian_onxpao.png",
     "description": "Barbarians are strong warriors who typically fight without armor and use powerful weapons. The are relentless combatants, who enter a berserk rage in which they become even stronger. They're typically not very smart, but that isn’t written in stone.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Hulk_%28circa_2019%29.png/250px-Hulk_%28circa_2019%29.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306355/Rookies%20and%20Dragons/Pop%20culture/Hulk_nqsu1i.webp"
   },
   {
     "roleName": "Bard",
     "popDescription": "Story tellers or musicians that use their wits, magic, and lore to get out of (or avoid) tight situations",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/369/420/618/636272705936709430.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306249/Rookies%20and%20Dragons/Real%20Pics/bard_fb2ynd.png",
     "description": "Jack of all trades. They’re really good, but not the best, at almost everything; They can fight, sneak around (but not as good as a rogue) Cast magic (but not as good as a wizard) Charm people (they’re probably the best at this actually) They can fit any role They inspire their allies to be better. They cast their magic and charms through music, art or performance",
-    "imageUrl": "https://geekandsundry.com/wp-content/uploads/2018/02/tenacious.jpg"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306356/Rookies%20and%20Dragons/Pop%20culture/The-D_eltj4f.jpg"
 },
   {
     "roleName": "Cleric",
     "popDescription": "A holy warrior devoted to a deity. Capable of bolstering the party, healing wounds, or laying low their enemies with divine wrath.",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/371/420/618/636272706155064423.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306248/Rookies%20and%20Dragons/Real%20Pics/cleric_ckfy86.png",
     "description": "Powered by a deity. They can be healers, helpers and they can fight (very versitile). Some are front line fighters, others are more dangerous with spells. Their power reflects their god: A god of life grants better healing A god of storms grants power of the weather (Thor) A god of nature grants power over nature",
-    "imageUrl": "https://i.ya-webdesign.com/images/avengers-movie-png-6.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306358/Rookies%20and%20Dragons/Pop%20culture/Thor_xzduq3.png"
   },
   {
     "roleName": "Druid",
     "popDescription": "A nomad devoted to the world and the powers of Nature. Capable of adopting the form of a beast for battle or utility. capable of bolstering the party and heal their wounds, or laying low their enemies with nature's wrath",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/346/420/618/636272691461725405.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306248/Rookies%20and%20Dragons/Real%20Pics/druid_zjnchh.png",
     "description": "The power of Nature dude. They get their power directly from the earth. They’re similar to clerics in a way, but more caster and less fighter. Except when they turn into animals, like a bear, then they’re good fighter. Protectors of the environment",
-    "imageUrl": "https://i.ya-webdesign.com/images/maui-moana-png-5.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306356/Rookies%20and%20Dragons/Pop%20culture/Moai_gqcxb5.png"
   },
   {
     "roleName": "Fighter",
     "popDescription": "Skilled combatant or strategist typically relying on heavy armor and weapons to cut down their enemies. A Fighters training gives them unique combat abilities",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/359/420/618/636272697874197438.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306249/Rookies%20and%20Dragons/Real%20Pics/fighter_bx1ans.png",
     "description": "They’re great at fighting. No, like REALLY great at fighting. Way better than a soldier, guard, etc. Legendary at fighting. A fighter might use heavy weapons and armor. A fighter might use bows and lighter armor. A fighter might be tactical",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/The_Hound_in_%27The_Children%27.jpg/220px-The_Hound_in_%27The_Children%27.jpg",
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306355/Rookies%20and%20Dragons/Pop%20culture/Hound_y5oluq.jpg",
     "Direction": "left"    
   },
   {
     "roleName": "Monk",
     "popDescription": "A martial artist pulling on the power of their own body or soul to produce impressive results.",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/489/420/618/636274646181411106.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306249/Rookies%20and%20Dragons/Real%20Pics/monk_qlnoll.png",
     "description": "Martial Artists. Some can be harness magic to fuel their attacks. They don't NEED weapons to fight. Their firsts and feet are their weapons. (They can use weapons if they want)",
-    "imageUrl": "https://pluspng.com/img-png/bruce-lee-png-download-bruce-lee-png-images-transparent-gallery-advertisement-593.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306356/Rookies%20and%20Dragons/Pop%20culture/Jackie_nywvhr.png"
   },
   {
     "roleName": "Paladin",
     "popDescription": "Nearly as skilled as the Fighter but can bolster their efforts with divine magic. Through their devotion a Paladin gains special boons from their god.",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/365/420/618/636272701937419552.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306249/Rookies%20and%20Dragons/Real%20Pics/pali_d8aqhy.png",
     "description": "Paladins are Holy Fighters with a cause. They swear an Oath to uphold and gain power from a god (or something similar) for doing so. Similar to Clerics, but much better fighters and much less reliance on magic",
-    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1594038910/Luke-Skywalker-Transparent-Background_oemua3.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306356/Rookies%20and%20Dragons/Pop%20culture/Luke_b8qifs.png"
   },
   {
     "roleName": "Ranger",
     "popDescription": "One who uses a unique blend of wilderness knowledge and martial ability to be a deadly hunter, with a bow, a pet or melee weapons",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/367/420/618/636272702826438096.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306248/Rookies%20and%20Dragons/Real%20Pics/ranger_uzikgr.png",
     "description": "Nature Protectors. Rangers Can hunt & track animals (and enemies) A very good fighter. Rangers sometimes have and animal ro fight along side them. Rangers are outlanders and have favorite enemies to fight. Often use Bows & light weapons",
     "imageUrl": "https://vignette.wikia.nocookie.net/ssb/images/3/34/Link-Alt1_-_Super_Smash_Bros._Ultimate.png/revision/latest?cb=20180923150251"
   },
   {
     "roleName": "Rogue",
     "popDescription": "A thief, assassin or stealthy character who has a knack for picking out his enemies weaknesses and exploiting them.",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/384/420/618/636272820319276620.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306248/Rookies%20and%20Dragons/Real%20Pics/rogue_nltt5p.png",
     "description": "Charmers, thieves, sneaks. Rogues use underhanded fighting techniques to land one major hit in combat. Rogues can hide, do acrobatics and charm their way out of trouble. A rogue might be a assassin, a mastermind or a thief. Rogues aren't necessarily major criminals, but usually at least petty criminals",
-    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1593791316/Jack_Sparrow_t2pr2a.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306356/Rookies%20and%20Dragons/Pop%20culture/Sparrow_d2oyki.png"
   },
   {
     "roleName": "Sorcerer",
     "popDescription": "A magic user that draws their power from within, summoning their innate magical power and bending it to their will",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/485/420/618/636274643818663058.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306248/Rookies%20and%20Dragons/Real%20Pics/Sorcerer_ogf8om.png",
     "description": "Sorcerers are magic users with an innate ability. Some Sorcerers are born with magic by chance, some have magic in their bloodline, some have their powers bestowed by a god. They just didn’t work for it. They’re “special”. Sorcerers are limited in their spells, but their spells can be incredibly powerful.",
-    "imageUrl": "https://img.cartoongoodies.com/wp-content/uploads/2020/01/X-Men-Storm.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306930/Rookies%20and%20Dragons/Pop%20culture/storm_vthbhe.png"
   },
   {
     "roleName": "Warlock",
     "popDescription": "Warlock has made a pact with a powerful entity. Warlocks trade favors for boons and spells.",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/375/420/618/636272708661726603.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306249/Rookies%20and%20Dragons/Real%20Pics/Lock_frntra.png",
     "description": "Warlocks get their power by making a pact with a powerful entity. Like a Devil. Or something nicer, maybe an ancient Faerie Spirit Or some object, like a ring... Or some weird Alien. A Warlocks power is from a greater master who often has an ulterior motive in mind (usually unbeknownst to the Warlock) They are limited in their spells, but they are very powerful. They can fight too",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Goethe%27s_Faust.jpeg/800px-Goethe%27s_Faust.jpeg"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306356/Rookies%20and%20Dragons/Pop%20culture/Faust_xxifkc.jpg"
   },
   {
     "roleName": "Wizard",
     "popDescription": "Keeper of arcane secrets and forgotten knowledge, the wizard manipulates magic and spells with cunning.",
-    "popImageUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/357/420/618/636272696881281556.png",
+    "popImageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306249/Rookies%20and%20Dragons/Real%20Pics/Wiz_og7pal.png",
     "description": "Wizards are academic magic users. They learn magic through intense study. As such, they have access to the large number of spells. Wizards can specialize in one 'School' of magic, which grants them additional abilities.",
-    "imageUrl": "https://foundables.com/i/f/o/AlbusDumbledore.png"
+    "imageUrl": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598306355/Rookies%20and%20Dragons/Pop%20culture/Dumbledor_th4lqg.png"
   }
 ]
 

@@ -17,10 +17,10 @@ class RoleStats extends React.Component {
   }
 
   render() {
+
     if (this.state == null) {
       return "Loading..."
     }
-
     return (
       <div id="stats" className="role-cards">
         <p>Hit Die: d{this.state.hit_die}</p>
@@ -31,7 +31,7 @@ class RoleStats extends React.Component {
         <p key={this.state.proficiency_choices}>
           <h3>Skill Proficiencies.<br /> You have the following {this.state.proficiency_choices[0].choose} skills:</h3>
         </p>
-        <SkillProf skills={this.state.proficiency_choices} />
+        <SkillProf skills={this.state.proficiency_choices}/>
       </div>
     )
   }
