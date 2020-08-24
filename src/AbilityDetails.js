@@ -1,19 +1,49 @@
 import React from 'react'
 import { withRouter } from 'react-router'
  
-function AbilityDetails(props) {
+class AbilityDetails extends React.Component {
+  constructor(props) {
+    super()
 
-  return (
-    <div>
-      {props.details.map(info =>
+    this.state = {
+      expanded: false
+    }
+  }
+  
+  
+  render() {
+    
+    const handleClick = () => {
+      this.setState(prevState => ({
+        expanded: !prevState.expanded
+      }));
+    }
+    
+    if (this.state.expanded) {
+      return (
         <div>
-          <p id="ability-name">{info.data.name}</p>
-          <p>{info.data.desc}<br /></p>
-          </div>)}
-    </div>
-  )
+          {this.props.details.map(info =>
+            <div>
+              <p id="ability-name">{info.data.name}</p>
+              <p>{info.data.desc}<br /></p>
+            </div>)}
+          <button onClick={handleClick}>Show Less</button>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          {this.props.details.map(info =>
+            <div>
+              <p id="ability-name">{info.data.name}</p>
+              <p>{info.data.desc[0]}<br /></p>
+            </div>)}
+          <button onClick={handleClick}>Show More</button>
+        </div>
+      )
+    }
+  }
 }
-
 export default withRouter(AbilityDetails)
 
 

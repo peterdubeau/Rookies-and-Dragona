@@ -1,8 +1,15 @@
 import React from 'react'
 import {withRouter} from 'react-router-dom'
 
-function SkillProf(props) {
+class SkillProf extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      skills: 'ok'
+    } 
+  }
 
+  render() {
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * i)        // quick and easy shuffle function. Taken from:
@@ -12,23 +19,19 @@ function SkillProf(props) {
     } 
   }
 
-  let allSkills = props.skills[0].from
+  let allSkills = this.props.skills[0].from
   shuffle(allSkills)
 
-
-  let numChoice = parseInt(props.skills[0].choose)
+  let numChoice = parseInt(this.props.skills[0].choose)
   let maxSkills = allSkills.slice(0, numChoice)
-  
-  function handleClick() {
-    shuffle(allSkills)
-  }
-
+    
   return (
     <div>
       {maxSkills.map(skill => <p>{skill.name}</p>)}
-      
-   </div>
+    </div>
   )
 }
+}
+
 
 export default withRouter(SkillProf)
